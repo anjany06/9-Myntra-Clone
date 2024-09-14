@@ -1,9 +1,16 @@
 import "./App.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
-      <h1>hii</h1>
+      <Header />
+
+      <main>
+        <div className="items-container"></div>
+      </main>
+      <Footer />
     </>
   );
 }
